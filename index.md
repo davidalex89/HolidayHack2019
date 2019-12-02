@@ -11,11 +11,11 @@ _Luckily, this one can be answered easily enough by inspecting through the brows
 
 ![Image](https://github.com/dscovetta/HolidayHack2019/blob/master/images/hh4.png)
 
-_Allright, this one takes a little more work. Cookies are a key value pair in the form of name:value and used to establish/validate sessions. Session Management refers to how the server keeps track of the actions performed by a client. _
+_Allright, this one takes a little more work. Cookies are a key value pair in the form of name:value and used to establish/validate sessions. Session Management refers to how the server keeps track of the actions performed by a client._
 
 ![Image](https://github.com/dscovetta/HolidayHack2019/blob/master/images/hh10.png)
 
-_So we're able to identify the cookie name/value; but we need to separate the fixed part of the cookie, and de-code it. You can also use Burpsuite to proxy and inspect the traffic between the browser and egress to the web server.
+_So we're able to identify the cookie name/value; but we need to separate the fixed part of the cookie, and de-code it. You can also use Burpsuite to proxy and inspect the traffic between the browser and egress to the web server._
 
 ![Image](https://github.com/dscovetta/HolidayHack2019/blob/master/images/hh11.png)
 
