@@ -27,14 +27,14 @@ _I think I missed a step in separating the username/password in the encoding, an
 
 ![Image](https://github.com/dscovetta/HolidayHack2019/blob/master/images/hh14.png)
 
-Yep, so I dug abit deeper and was able to confirm separation:
-- Email: email@email.com
-- Name: name
-- Password: password
-- Cookie: authid=dXNlcm5hbWV2NGVyOWxsMSFzcw%3D%3D
-- First part: dXNlcm5hbWV2 - coded, username - uncoded
-- Second part: NGVyOWxsMSFzcw, v4er9ll1!ss - uncoded
-- Extra stuff: %3D%3D
+_Yep, so I dug abit deeper and was able to confirm separation:_
+- _Email: email@email.com_
+- _Name: name_
+- _Password: password_
+- _Cookie: authid=dXNlcm5hbWV2NGVyOWxsMSFzcw%3D%3D_
+- _First part: dXNlcm5hbWV2 - coded, username - uncoded_
+- _Second part: NGVyOWxsMSFzcw, v4er9ll1!ss - uncoded_
+- _Extra stuff: %3D%3D_
 
 _Allright, so let's take a look at the next one:_
 
