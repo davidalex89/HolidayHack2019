@@ -40,4 +40,4 @@ _Allright, so let's take a look at the next one:_
 
 ![Image](https://github.com/dscovetta/HolidayHack2019/blob/master/images/hh6.png)
 
-_So I suspect we'll need to identify 
+_In this exercise I suspect we'll need to re-code with admin credentials and attack the web authentication._
