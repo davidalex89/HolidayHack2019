@@ -27,3 +27,6 @@ _I think I missed a step in separating the username/password in the encoding, an
 
 ![Image](https://github.com/dscovetta/HolidayHack2019/blob/master/images/hh14.png)
 
+_Allright, so let's take a look at the next one:_
+
+![Image](https://github.com/dscovetta/HolidayHack2019/blob/master/images/hh6.png)
