@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+# TryHackMe's Holiday Hack Challenge 2019
+![Image](https://github.com/dscovetta/HolidayHack2019/blob/master/images/hh2.png)
 
-You can use the [editor on GitHub](https://github.com/dscovetta/TryHackMe_HolidayHack2019/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+_Background: I'm writing this up to document my own progress through the challenge, and write out how arrived at each answer. Hopefully this will help me and potentially others in future challenges. Although I'm a paying member of TryHackMe, the holiday challenge is open to all._
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![Image](https://github.com/dscovetta/HolidayHack2019/blob/master/images/hh4.png)
 
-### Markdown
+_Luckily, this one can be answered easily enough by inspecting through the browser (web developer tools), as it is passed back from the web server. We can see that it's the cookie is named `authid`.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![Image](https://github.com/dscovetta/HolidayHack2019/blob/master/images/hh7e.png)
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dscovetta/TryHackMe_HolidayHack2019/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
