@@ -9,7 +9,7 @@ _Luckily, this one can be answered easily enough by inspecting through the brows
 
 ![Image](https://github.com/dscovetta/HolidayHack2019/blob/master/images/hh7e.png)
 
-![Image](https://github.com/dscovetta/HolidayHack2019/blob/master/images/hh4.png)
+![Image](https://github.com/dscovetta/HolidayHack2019/blob/master/images/hh5.png)
 
 _Allright, this one takes a little more work. Cookies are a key value pair in the form of name:value and used to establish/validate sessions. Session Management refers to how the server keeps track of the actions performed by a client._
 
