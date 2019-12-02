@@ -9,23 +9,23 @@ _Luckily, this one can be answered easily enough by inspecting through the brows
 
 ![Image](https://raw.githubusercontent.com/dscovetta/HolidayHack2019/blob/master/images/hh7e.png)
 
-![Image](https://raw.githubusercontent.com/HolidayHack2019/blob/master/images/hh5.png)
+![Image](https://raw.githubusercontent.com/dscovetta/HolidayHack2019/blob/master/images/hh5.png)
 
 _Allright, this one takes a little more work. Cookies are a key value pair in the form of name:value and used to establish/validate sessions. Session Management refers to how the server keeps track of the actions performed by a client._
 
-![Image](https://raw.githubusercontent.com/HolidayHack2019/blob/master/images/hh10.png)
+![Image](https://raw.githubusercontent.com/dscovetta/HolidayHack2019/blob/master/images/hh10.png)
 
 _So we're able to identify the cookie name/value; but we need to separate the fixed part of the cookie, and de-code it. You can also use Burpsuite to proxy and inspect the traffic between the browser and egress to the web server._
 
-![Image](https://raw.githubusercontent.com/HolidayHack2019/blob/master/images/hh11.png)
+![Image](https://raw.githubusercontent.com/dscovetta/HolidayHack2019/blob/master/images/hh11.png)
 
 _Allright, so - it's encoded at Base64, so let's we'll need to decode. Luckily there's a discord chat server for all this and someone recommended [a neat coder/decoder tool on github](https://gchq.github.io/CyberChef/). We then arrive with the results `usernamev4er9ll1!ss`._
 
-![Image](https://raw.githubusercontent.com/HolidayHack2019/blob/master/images/hh12.png)
+![Image](https://raw.githubusercontent.com/dscovetta/HolidayHack2019/blob/master/images/hh12.png)
 
 _I think I missed a step in separating the username/password in the encoding, and can probably be identified by creating a separate username or password (but not both), and identifying the differences as a seperator._
 
-![Image](https://raw.githubusercontent.com/HolidayHack2019/blob/master/images/hh14.png)
+![Image](https://raw.githubusercontent.com/dscovetta/HolidayHack2019/blob/master/images/hh14.png)
 
 _Yep, so I dug abit deeper and was able to confirm separation:_
 - _Email: email@email.com_
@@ -38,6 +38,6 @@ _Yep, so I dug abit deeper and was able to confirm separation:_
 
 _Allright, so let's take a look at the next one:_
 
-![Image](https://raw.githubusercontent.com/HolidayHack2019/blob/master/images/hh6.png)
+![Image](https://raw.githubusercontent.com/dscovetta/HolidayHack2019/blob/master/images/hh6.png)
 
 _In this exercise I suspect we'll need to re-code with admin credentials and attack the web authentication._
