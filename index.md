@@ -19,7 +19,11 @@ _So we're able to identify the cookie name/value; but we need to separate the fi
 
 ![Image](https://github.com/dscovetta/HolidayHack2019/blob/master/images/hh11.png)
 
-_Allright, so - it's encoded at Base64, so let's we'll need to decode. Luckily there's a discord chat server for all this and someone recommended [a neat coder/decoder tool on github](https://gchq.github.io/CyberChef/). We then arrive with the results `usernamev4er9ll1!ss`. I think I missed a step in separating the username/password in the encoding, and can probably be identified by creating a separate username or password (but not both), and identifying the differences as a seperator._
+_Allright, so - it's encoded at Base64, so let's we'll need to decode. Luckily there's a discord chat server for all this and someone recommended [a neat coder/decoder tool on github](https://gchq.github.io/CyberChef/). We then arrive with the results `usernamev4er9ll1!ss`._
+
+![Image](https://github.com/dscovetta/HolidayHack2019/blob/master/images/hh12.png)
+
+_I think I missed a step in separating the username/password in the encoding, and can probably be identified by creating a separate username or password (but not both), and identifying the differences as a seperator._
 
 ![Image](https://github.com/dscovetta/HolidayHack2019/blob/master/images/hh14.png)
 
